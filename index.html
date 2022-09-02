@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Render all elements -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font awesome -->
+      <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Main style css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- google fons  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+    <title>Moderno</title>
+  </head>
+  <body>
+    <!-- Start header -->
+    <header>
+      <div class="container">
+        <nav>
+          <img src="./imgs/logo.png" alt="moderno" class="logo" />
+          <i  onclick="Showmenu()" class="fa-solid fa-bars fa-2x hamburger" ></i>
+          <div id="demo" class="menu">
+            <i  onclick="Closemenu()" class="fa-solid fa-xmark close-bar fa-2x" ></i>
+            <div class="menu-logo">
+              <img src="./imgs/menu-logo.png" alt="moderno" />
+            </div>
+            <h2 class="title">MENU</h2>
+            <ul class="links">
+              <li><a  href="#">HOME</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">STORIES</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="social">
+              <li>
+                <a href="#" aria-label="Visit our facebook"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#" aria-label="Visit our twitter"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- start landing -->
+    <div class="landing">
+      <div class="container">
+        <div class="info">
+          <h1 >moderno</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            eu velit nulla.
+          </p>
+          <button>Get in Touch</button>
+        </div>
+      </div>
+    </div>
+    <!-- End landing -->
+    <!-- Start services -->
+    <div class="services">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-pencil active"></i>
+          <h3>We Are Creative</h3>
+          <p>
+            Lorem ipsum dolor sit amet, dicta albucius ne. Nostro gubergren in
+            ius, ea nam vocent electram. An verear efficiantur usu
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-display"></i>
+          <h3>We Have skills</h3>
+          <p>
+            Nostro gubergren in ius, ea nam vocent electram. An verear
+            efficiantu
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>We Love To Help</h3>
+          <p>
+            Lorem ipsum dolor sit amet, dicta. Nostro gubergren in ius, ea nam
+            vocent. An verear efficiantur usu
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End services -->
+    <!-- start Stories -->
+    <div class="stories">
+      <div class="container">
+        <div class="title">
+          <h2>Seccess Stories</h2>
+          <p>
+            We do awesome work,check some of success stories so far
+          </p>
+        </div>
+        <div class="project">
+          <i  class="fa-solid fa-xmark close-bar " ></i>
+          <div class="image">
+            <img src="./imgs/pexels-pixabay-38519.jpg" aria-hidden="true">
+          </div>
+          <div class="text">
+            <h3>lorem ipsum project</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since 
+              the 1500s, when an unknown printer took a galley of type and scrambled it 
+              to make a type specimen book.
+            </p>
+            <a href="#" aria-label="See More about this project">view project</a>
+            
+          </div>
+        </div>
+        <div class="img-holder">
+          <div class="box ">
+            <a href="#" aria-label="See More"><i class="fa-solid fa-plus"></i></a>
+            <img src="./imgs/project  (1).jpg" aria-hidden="true">
+          </div>
+          <div class="box">
+            <a href="#" aria-label="See More"><i class="fa-solid fa-plus"></i></a>
+            <img src="./imgs/project (2).jpg" aria-hidden="true">
+          </div>
+          <div class="box">
+            <a href="#" aria-label="See More"><i class="fa-solid fa-plus"></i></a>
+            <img src="./imgs/project (3).jpg" alt="">
+          </div>
+          <div class="box">
+            <a href="#" aria-label="See More"><i class="fa-solid fa-plus"></i></a>
+            <img src="./imgs/project (4).jpg" aria-hidden="true">
+          </div>
+          <div class="box">
+            <a href="#" aria-label="See More"><i class="fa-solid fa-plus"></i></a>
+            <img src="./imgs/project (5).jpg" aria-hidden="true">
+          </div>
+          <div class="box">
+            <a href="#" aria-label="See More"><i class="fa-solid fa-plus"></i></a>
+            <img src="./imgs/project (6).jpg" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Stories -->
+    <!-- Start Contact -->
+    <div class="contact">
+      <div class="container">
+        <div class="title">
+          <h3>Git In Touch</h3>
+          <p>We are communncative and social</p>
+        </div>
+        <div class="map">
+          <img src="./imgs/map.png" alt="">
+        </div>
+        <div class="form">
+          <form action="">
+            <input class="name" type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <input class="subject" type="text" name="subject" placeholder="Subject">
+            <textarea name="massage" placeholder="Type Massage Here"></textarea>
+            <input type="submit" value="SEND">
+          </form>
+          <div class="info">
+            <address>
+              <h4>Our Address</h4>
+              4896 Desert Broom Court <br>
+              Newark, NJ 07102 <br>
+              United States
+            </address>
+            <div class="email">
+              <h4>Email</h4>
+              <span>modernomail@mail.com</span>
+            </div>
+            <div class="phone">
+              <h4>Phone</h4>
+              <span>+00 123-4456-78900</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start footer -->
+    <footer>
+      <div class="container">
+        <div class="copyright">
+          Copyright &copy; 2022 Moderno.All Rights Reserved
+        </div>
+        <ul class="social">
+          <li>
+            <a href="#" aria-label="visit our facebook"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#" aria-label="visit our twitter"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <script >
+      function Showmenu() {
+  document.getElementById("demo").style.right = "0px"
+}
+function Closemenu() {
+  document.getElementById("demo").style.right = "-375px"
+}
+    </script>
+  </body>
+</html>
