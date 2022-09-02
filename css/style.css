@@ -396,21 +396,28 @@ header .social a i {
   background-color: #333;
   padding: 15px;
   font-size: 20px;
+  z-index: 3;
 }
 .contact .map::after {
   content: '';
   position: absolute;
-  top: 47%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-width: 20px;
+  border-width: 50px;
   border-style: solid;
   border-color: #333 transparent transparent transparent;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .contact .map {
     display: none;
   }
+}
+@media (min-width: 991px) {
+  .contact .map::after {
+    /* top: 1px; */
+  }
+  
 }
 .contact .form {
   display: flex;
@@ -423,13 +430,14 @@ header .social a i {
   }
 }
 .contact .form form {
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-template-areas:"name  email "
                       " subject subject "
                       " massage massage "
                       " submit submit";
-  margin-right: 40px;
+  margin-right: 45px;
 }
 @media (max-width: 991px) {
   .contact .form form {
